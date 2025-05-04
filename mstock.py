@@ -5,7 +5,7 @@ import plotly.graph_objs as go
 import json
 import http.client
 
-API_KEY = "P2CnBj11pg7myoab+wVP5Q@@"
+API_KEY = ""
 PRIVATE_KEY = "your_private_key"
 CLIENT_CODE = "MA80539"
 PASSWORD = "Knathdurg#78"
