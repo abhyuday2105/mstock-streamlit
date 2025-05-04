@@ -5,10 +5,10 @@ import plotly.graph_objs as go
 import json
 import http.client
 
-API_KEY = ""
-PRIVATE_KEY = "your_private_key"
-CLIENT_CODE = "MA80539"
-PASSWORD = "Knathdurg#78"
+API_KEY = st.secrets["API_KEY"]
+PRIVATE_KEY = st.secrets["PRIVATE_KEY"]
+CLIENT_CODE = st.secrets["CLIENT_CODE"]
+PASSWORD = st.secrets["PASSWORD"]
 
 def login_get_refresh_token():
     conn = http.client.HTTPSConnection("api.mstock.trade")
